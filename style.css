@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 30px;
+    gap: 30px;
+}
+
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav i{
+    background-color: rgb(22, 4, 4);
+    color: white;
+    border-radius: 50%;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#center{
+    width: 100%;
+    padding: 40px 50px;
+}
+
+#center h1{
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 85px;
+}
+
+#center-in{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#right{
+    width: 20%;
+}
+.elem{
+    margin: 5px;
+    padding: 5px 20px;
+    border-top: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+
+#bottom{
+    height: 40%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1011172506/photo/handsome-african-american-man-in-blank-black-t-shirt-standing-against-brick-wall.jpg?s=1024x1024&w=is&k=20&c=HAzcDcBq-ElPU_qs31NgIDktZIXSW6hVnGMEvdyVVPw=);
+    background-size: cover;
+    background-position: 0 10%;
+}
